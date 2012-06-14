@@ -1,0 +1,11 @@
+Simple bash script to automatically create the following..
+
+1. hosts file entry (.local)
+2. creates a directory in /var/www/
+3. copies a pre-configured vhost to /etc/apache2/sites-available
+4. enables the site, restarting apache
+
+All you need to do is then run sh autosite.sh or set an alias up for it.
+
+I know it doesnt take long to do the following, however all those 5 min jobs add up.
+
