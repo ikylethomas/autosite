@@ -1,4 +1,8 @@
 clear
+if [ "$(whoami)" != "root" ]; then
+	echo "Sorry, you need root permissions to run this"
+	exit 1
+fi
 echo "==================================="
 echo "=                                 ="
 echo "=          ~ Auto Site ~          ="
