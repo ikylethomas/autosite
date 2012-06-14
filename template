@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+DocumentRoot "/var/www/__TEMPLATE__/app/webroot"
+ServerName __TEMPLATE__.local
+<Directory "/var/www/__TEMPLATE__/app/webroot">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+</Directory>
+</VirtualHost>
